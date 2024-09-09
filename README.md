@@ -35,28 +35,8 @@ To run this project locally, please ensure you have the following dependencies i
 - Matplotlib
 - Scikit-Learn
 - Jupyter Notebook
-- Additional packages as listed in `requirements.txt`
+
 
 ### **Project Structure**
 
-lv-segmentation/
-│
-├── data/                          # Directory for datasets
-│   └── ACDC/                      # Example dataset directory
-│
-├── notebooks/                     # Jupyter Notebooks for data exploration and preprocessing
-│   ├── data_preprocessing.ipynb
-│   └── model_training.ipynb
-│
-├── models/                        # Saved model weights
-│   └── unet_weights.pth
-│
-├── src/                           # Source code
-│   ├── train.py                   # Training script
-│   ├── evaluate.py                # Evaluation script
-│   └── inference.py               # Inference script
-│
-├── requirements.txt               # Python dependencies
-├── README.md                      # Project documentation
-└── LICENSE                        # License file
 
