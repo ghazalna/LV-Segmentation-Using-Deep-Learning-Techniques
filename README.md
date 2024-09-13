@@ -1,7 +1,13 @@
 # **LV Segmentation Using Deep Learning Techniques**
 
 ## **Overview**
+Heart disease is the primary cause of death in the US for both men and women, taking 610,000 lives annually [1]. To evaluate the structural and functional properties of the heart non-invasively for the purpose of managing cardiovascular disease, doctors do Magnetic Resonance Imaging (MRI) scans. Heart disease can be detected by measuring the left ventricle's (LV) end-systolic and end-diastolic volumes (EDV) and ejection fraction (EF). These measurements can be obtained from the segmented contours of the left ventricle (LV); hence, reliable and consistent LV segmentation from MRI images is essential for accurate ESV, EDV, and EF measurements as well as non-invasive cardiac illness diagnosis.
+
+
 This project aims to enhance the accuracy and efficiency of Left Ventricle (LV) segmentation in cardiac MRI images using advanced deep learning models. LV segmentation is crucial for medical imaging, helping clinicians assess and diagnose cardiac conditions with greater precision. By leveraging models such as U-Net, Attention U-Net, and V-Net, we aim to provide a robust solution for accurate and fast LV segmentation.
+
+<img width="871" alt="Screenshot 2024-09-13 at 20 11 09" src="https://github.com/user-attachments/assets/dfc35359-ee94-483c-9edf-9714b3b2f5c1">
+
 
 ## **Problem Statement**
 Accurate segmentation of the left ventricle (LV) in cardiac MRI images is a significant challenge in medical imaging. The primary goal is to develop a model that can segment the LV with high precision, enabling better diagnosis and treatment of cardiac diseases.
@@ -35,6 +41,11 @@ To run this project locally, please ensure you have the following dependencies i
 - Matplotlib
 - Scikit-Learn
 - Jupyter Notebook
+
+## **Refrences**
+- CDC. “Know About the Facts Heart Disease.” Centers for Disease Control and Prevention, www.cdc.gov/heartdisease/facts.htm
+- 
+
 
 
 ### **Project Structure**
