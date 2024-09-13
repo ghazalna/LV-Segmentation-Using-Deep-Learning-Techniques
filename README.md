@@ -48,6 +48,22 @@ The project utilizes publicly available datasets for LV segmentation, such as th
 5. **Evaluation**: Assessing model performance using metrics like Dice Coefficient and Intersection over Union (IoU).
 6. **Improvement and Fine-Tuning**: Iteratively refining models by adjusting hyperparameters, applying advanced techniques, and conducting error analysis.
 
+## Results
+
+The performance of the model was evaluated using several metrics. Here are the results:
+
+- **Loss:** 0.0341
+- **Dice Coefficient:** 0.8909
+- **IoU Score:** 0.8033
+- **Precision:** 0.9022
+- **Recall:** 0.8800
+- **F1 Score:** 0.8909
+
+These metrics indicate that the model performs well in terms of both segmentation accuracy and overall performance.
+
+
+
+
 ## **Installation**
 
 To run this project locally, please ensure you have the following dependencies installed:
