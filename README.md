@@ -82,6 +82,12 @@ The performance of the models was evaluated using the following metrics:
 - **F1 Score:** 0.8909  
   The harmonic mean of precision and recall, providing a single metric for overall performance. A high F1 Score signifies a balance between precision and recall.
 
+<img width="874" alt="Screenshot 2024-09-13 at 20 51 43" src="https://github.com/user-attachments/assets/58d92bba-1f20-40dd-97c0-0b42d2283990">
+<img width="903" alt="Screenshot 2024-09-13 at 20 51 00" src="https://github.com/user-attachments/assets/7fe8438a-d3a0-4bdd-b347-bca492ce3a73">
+
+
+
+
 ### Improvement and Fine-Tuning
 
 - **Refinement:** Models are iteratively refined by adjusting hyperparameters, applying advanced techniques, and conducting error analysis to improve performance.
