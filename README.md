@@ -64,22 +64,25 @@ Different deep learning models are evaluated for their effectiveness in segmenta
 
 The performance of the models was evaluated using the following metrics:
 
-- **Loss:** 0.0341  
+<img width="810" alt="Screenshot 2024-09-13 at 23 03 49" src="https://github.com/user-attachments/assets/99798d4a-0f52-4b4a-9f58-cc7d1b786875">
+
+
+- **Loss:**  
   The loss value indicates the model's accuracy in predicting the ground truth. A lower value suggests better performance.
 
-- **Dice Coefficient:** 0.8909  
+- **Dice Coefficient:** 
   Measures the similarity between the predicted segmentation and the ground truth. A high value (close to 1) shows strong overlap.
 
-- **IoU Score:** 0.8033  
+- **IoU Score:**   
   Quantifies the overlap between the predicted and actual regions. A score close to 1 reflects good model performance.
 
-- **Precision:** 0.9022  
+- **Precision:**  
   The proportion of true positive predictions among all positive predictions. High precision means fewer false positives.
 
-- **Recall:** 0.8800  
+- **Recall:**  
   The proportion of true positives among all actual positives. High recall indicates that the model correctly identifies most of the positive cases.
 
-- **F1 Score:** 0.8909  
+- **F1 Score:** 
   The harmonic mean of precision and recall, providing a single metric for overall performance. A high F1 Score signifies a balance between precision and recall.
 
 <img width="874" alt="Screenshot 2024-09-13 at 20 51 43" src="https://github.com/user-attachments/assets/58d92bba-1f20-40dd-97c0-0b42d2283990">
