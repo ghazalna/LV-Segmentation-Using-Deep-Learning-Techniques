@@ -21,41 +21,52 @@ This project aims to enhance the accuracy and efficiency of Left Ventricle (LV) 
 ## **Data**
 The project utilizes publicly available datasets for LV segmentation, such as the ACDC dataset. Proper preprocessing, normalization, and augmentation techniques are applied to improve the model's performance.
 
-## **Methodology**
+## Methodology
 
-## Image Preprocessing and Augmentation
+### Image Preprocessing and Augmentation
 
-### Preprocessing Steps
+To ensure consistent and effective training of the model, images and masks undergo several preprocessing and augmentation steps:
 
-To ensure consistent and effective training of the model, images and masks undergo several preprocessing steps:
+#### Preprocessing Steps
+- **Loading and Normalization:**
+  - Images and masks are loaded from specified paths.
+  - Pixel values are normalized to the range [0, 1] for both images and masks.
 
-#### Loading and Normalization
-- **Images and masks** are loaded from specified paths.
-- **Pixel values** are normalized to the range [0, 1] for both images and masks.
+- **Data Augmentation:**
+  To enhance the model's robustness and generalization, various data augmentation techniques are applied:
+  - **Flipping:** Random horizontal flipping of images with a 50% chance.
+  - **Offsetting:** Random shifts applied in the x and y directions.
+  - **Scaling:** Random scaling within a specified range.
+  - **Rotation:** Random rotations within a defined angle range.
+  - **Noise Addition:** Gaussian noise is added to images to simulate real-world variability.
 
-#### Data Augmentation
-To improve the model's robustness and generalization, various data augmentation techniques are applied:
-- **Flipping:** Images are randomly flipped horizontally with a 50% chance.
-- **Offsetting:** Random shifts are applied in the x and y directions.
-- **Scaling:** Random scaling is applied within a specified range.
-- **Rotation:** Random rotations are performed within a defined angle range.
-- **Noise Addition:** Gaussian noise is added to images to simulate real-world variability.
+- **Dataset Creation:**
+  - **Splitting:** Images and masks are divided into training and validation sets.
+  - **TensorFlow Datasets:** Created for efficient loading, preprocessing, and batching.
 
-#### Dataset Creation
-- **Splitting:** Images and masks are divided into training and validation sets.
-- **TensorFlow Datasets:** TensorFlow Datasets are created for efficient loading, preprocessing, and batching.
+- **Visualization:**
+  - **Subset Visualization:** A subset of images and masks is visualized to verify preprocessing and augmentation processes.
 
-#### Visualization
-- **Subset Visualization:** A subset of images and masks is visualized to verify the preprocessing and augmentation processes.
+### Model Selection
 
+Different deep learning models are evaluated for their effectiveness in segmentation:
 
-## **Model Selection**: Evaluation of different deep learning models:
-   - **U-Net**: A popular encoder-decoder architecture for biomedical image segmentation.
-   - **Attention U-Net**: An improved version of U-Net with an attention mechanism for focusing on important regions in the image.
-   - **V-Net**: A 3D convolutional network specifically designed for volumetric medical image segmentation.
-## **Model Training**: Training selected models on prepared data, optimizing hyperparameters, and using advanced techniques to enhance learning.
-## **Evaluation**: Assessing model performance using metrics like Dice Coefficient and Intersection over Union (IoU).
-## **Improvement and Fine-Tuning**: Iteratively refining models by adjusting hyperparameters, applying advanced techniques, and conducting error analysis.
+- **U-Net:** A widely-used encoder-decoder architecture for biomedical image segmentation.
+- **Attention U-Net:** An enhanced version of U-Net incorporating an attention mechanism to focus on critical regions.
+- **V-Net:** A 3D convolutional network tailored for volumetric medical image segmentation.
+
+### Model Training
+
+- **Training:** Selected models are trained on the prepared data.
+- **Hyperparameter Optimization:** Techniques are employed to optimize hyperparameters and enhance learning.
+
+### Evaluation
+
+- **Performance Metrics:** Model performance is assessed using metrics such as Dice Coefficient and Intersection over Union (IoU).
+
+### Improvement and Fine-Tuning
+
+- **Refinement:** Models are iteratively refined by adjusting hyperparameters, applying advanced techniques, and conducting error analysis to improve performance.
 
 ## Results
 
