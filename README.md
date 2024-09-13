@@ -62,26 +62,29 @@ Different deep learning models are evaluated for their effectiveness in segmenta
 
 ### Evaluation
 
-- **Performance Metrics:** Model performance is assessed using metrics such as Dice Coefficient and Intersection over Union (IoU).
+The performance of the models was evaluated using the following metrics:
+
+- **Loss:** 0.0341  
+  The loss value indicates the model's accuracy in predicting the ground truth. A lower value suggests better performance.
+
+- **Dice Coefficient:** 0.8909  
+  Measures the similarity between the predicted segmentation and the ground truth. A high value (close to 1) shows strong overlap.
+
+- **IoU Score:** 0.8033  
+  Quantifies the overlap between the predicted and actual regions. A score close to 1 reflects good model performance.
+
+- **Precision:** 0.9022  
+  The proportion of true positive predictions among all positive predictions. High precision means fewer false positives.
+
+- **Recall:** 0.8800  
+  The proportion of true positives among all actual positives. High recall indicates that the model correctly identifies most of the positive cases.
+
+- **F1 Score:** 0.8909  
+  The harmonic mean of precision and recall, providing a single metric for overall performance. A high F1 Score signifies a balance between precision and recall.
 
 ### Improvement and Fine-Tuning
 
 - **Refinement:** Models are iteratively refined by adjusting hyperparameters, applying advanced techniques, and conducting error analysis to improve performance.
-
-## Results
-
-The performance of the model was evaluated using several metrics. Here are the results:
-
-- **Loss:** 0.0341
-- **Dice Coefficient:** 0.8909
-- **IoU Score:** 0.8033
-- **Precision:** 0.9022
-- **Recall:** 0.8800
-- **F1 Score:** 0.8909
-
-These metrics indicate that the model performs well in terms of both segmentation accuracy and overall performance.
-
-
 
 
 ## **Installation**
