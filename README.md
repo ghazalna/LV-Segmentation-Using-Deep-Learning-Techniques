@@ -22,19 +22,37 @@ The project utilizes publicly available datasets for LV segmentation, such as th
 
 ## **Methodology**
 1. **Data Preparation**: Preprocessing, augmentation, and splitting the data into training, validation, and test sets.
-2. **Model Selection**: Evaluation of different deep learning models:
+   To ensure consistent and effective training of the model, images and masks undergo several preprocessing steps:
+   **A.Loading and Normalization:**
+   - Images and masks are loaded from specified paths.
+   - Pixel values are normalized to the range [0, 1] for both images and masks.
+   **B.Data Augmentation:**
+     To improve the model's robustness and generalization, various data augmentation techniques are applied:
+   - Flipping: Images are randomly flipped horizontally with a 50% chance.
+   - Offsetting: Random shifts in the x and y directions are applied.
+   - Scaling: Random scaling is applied within a specified range.
+   - Rotation: Random rotations are performed within a defined angle range.
+   - Noise Addition: Gaussian noise is added to images to simulate real-world variability.
+   **C.Dataset Creation:**
+   - Images and masks are split into training and validation sets.
+   - TensorFlow Datasets are created for efficient loading, preprocessing, and batching.
+   **D.Visualization:**
+         A subset of images and masks is visualized to verify the preprocessing and augmentation processes These preprocessing and augmentation steps are designed to enhance model performance and ensure that the model generalizes well across various image conditions.
+
+
+3. **Model Selection**: Evaluation of different deep learning models:
    - **U-Net**: A popular encoder-decoder architecture for biomedical image segmentation.
    - **Attention U-Net**: An improved version of U-Net with an attention mechanism for focusing on important regions in the image.
    - **V-Net**: A 3D convolutional network specifically designed for volumetric medical image segmentation.
-3. **Model Training**: Training selected models on prepared data, optimizing hyperparameters, and using advanced techniques to enhance learning.
-4. **Evaluation**: Assessing model performance using metrics like Dice Coefficient and Intersection over Union (IoU).
-5. **Improvement and Fine-Tuning**: Iteratively refining models by adjusting hyperparameters, applying advanced techniques, and conducting error analysis.
+4. **Model Training**: Training selected models on prepared data, optimizing hyperparameters, and using advanced techniques to enhance learning.
+5. **Evaluation**: Assessing model performance using metrics like Dice Coefficient and Intersection over Union (IoU).
+6. **Improvement and Fine-Tuning**: Iteratively refining models by adjusting hyperparameters, applying advanced techniques, and conducting error analysis.
 
 ## **Installation**
 
 To run this project locally, please ensure you have the following dependencies installed:
 
-- Python 3.8+
+- Python 3.9+
 - PyTorch
 - NumPy
 - OpenCV
@@ -44,10 +62,10 @@ To run this project locally, please ensure you have the following dependencies i
 
 ## **Refrences**
 - CDC. “Know About the Facts Heart Disease.” Centers for Disease Control and Prevention, www.cdc.gov/heartdisease/facts.htm
-- 
+ 
 
 
 
-### **Project Structure**
+
 
 
