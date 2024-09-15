@@ -55,7 +55,7 @@ Different deep learning models are evaluated for their effectiveness in segmenta
 
 - **U-Net:** A widely-used encoder-decoder architecture for biomedical image segmentation.
 - **Attention U-Net:** An enhanced version of U-Net incorporating an attention mechanism to focus on critical regions.
-- **V-Net:** A 3D convolutional network tailored for volumetric medical image segmentation.
+
 
 ### Model Training
 
