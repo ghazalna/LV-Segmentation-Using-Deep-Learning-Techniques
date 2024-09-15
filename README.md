@@ -13,7 +13,7 @@ Accurate segmentation of the left ventricle (LV) in cardiac MRI images is a sign
 
 
 ## **Project Goals**
-This project aims to enhance the accuracy and efficiency of Left Ventricle (LV) segmentation in cardiac MRI images using advanced deep learning models. LV segmentation is crucial for medical imaging, helping clinicians assess and diagnose cardiac conditions with greater precision. By leveraging models such as U-Net, Attention U-Net, and V-Net, we aim to provide a robust solution for accurate and fast LV segmentation.
+This project aims to enhance the accuracy and efficiency of Left Ventricle (LV) segmentation in cardiac MRI images using advanced deep learning models. LV segmentation is crucial for medical imaging, helping clinicians assess and diagnose cardiac conditions with greater precision. By leveraging models such as U-Net, Attention U-Net,  I aim to provide a robust solution for accurate and fast LV segmentation.
 - **Improve Segmentation Accuracy**: Develop a model that accurately detects LV boundaries.
 - **Reduce Processing Time**: Utilize efficient methods that maintain accuracy while decreasing processing time.
 - **Enhance Generalization**: Ensure the model performs well across various clinical settings and MRI data types.
@@ -64,7 +64,8 @@ Different deep learning models are evaluated for their effectiveness in segmenta
 
 The performance of the models was evaluated using the following metrics:
 
-<img width="810" alt="Screenshot 2024-09-13 at 23 03 49" src="https://github.com/user-attachments/assets/99798d4a-0f52-4b4a-9f58-cc7d1b786875">
+<img width="808" alt="Screenshot 2024-09-15 at 18 35 42" src="https://github.com/user-attachments/assets/4bb8e832-823d-4e9f-b642-76f150288ae3">
+
 
 
 - **Loss:**  
