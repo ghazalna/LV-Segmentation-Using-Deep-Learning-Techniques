@@ -56,7 +56,7 @@ Different deep learning models are evaluated for their effectiveness in segmenta
 - **U-Net:** A widely-used encoder-decoder architecture for biomedical image segmentation.
   ![unet](https://github.com/user-attachments/assets/b928df6d-e512-4a95-89ff-9aee57c7750a)
 - **Attention U-Net:** An enhanced version of U-Net incorporating an attention mechanism to focus on critical regions.
-<img width="747" alt="Screenshot 2024-09-16 at 12 39 52" src="https://github.com/user-attachments/assets/1a5aa981-f07e-40ad-a594-893734227e29">
+  <img width="747" alt="Screenshot 2024-09-16 at 12 39 52" src="https://github.com/user-attachments/assets/1a5aa981-f07e-40ad-a594-893734227e29">
 
 
 
