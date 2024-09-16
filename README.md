@@ -116,7 +116,7 @@ To run this project locally, please ensure you have the following dependencies i
 - Jupyter Notebook
 
 ## **Refrences**
-- CDC. “Know About the Facts Heart Disease.” Centers for Disease Control and Prevention, www.cdc.gov/heartdisease/facts.htm
+[1] CDC. “Know About the Facts Heart Disease.” Centers for Disease Control and Prevention, www.cdc.gov/heartdisease/facts.htm
  
 
 
