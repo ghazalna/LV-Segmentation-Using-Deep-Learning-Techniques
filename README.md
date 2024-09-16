@@ -54,8 +54,11 @@ To ensure consistent and effective training of the model, images and masks under
 Different deep learning models are evaluated for their effectiveness in segmentation:
 
 - **U-Net:** A widely-used encoder-decoder architecture for biomedical image segmentation.
+  ![unet](https://github.com/user-attachments/assets/b928df6d-e512-4a95-89ff-9aee57c7750a)
 - **Attention U-Net:** An enhanced version of U-Net incorporating an attention mechanism to focus on critical regions.
-![unet](https://github.com/user-attachments/assets/b928df6d-e512-4a95-89ff-9aee57c7750a)
+  ![Uploading Screenshot 2024-09-13 at 14.24.07.png…]()
+
+
 
 ### Model Training
 
